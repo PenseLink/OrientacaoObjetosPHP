@@ -1,6 +1,7 @@
 <?php
-require 'http://localhost/PhpProject1/model/entity/Planta.php';
-include 'http://localhost/PhpProject1/model/connectionFactory.php';
+
+include 'http://localhost/PhpProject1/model/entity/Planta.php';
+include 'connectionFactory.php';
 
 
 class PlantaDao {
