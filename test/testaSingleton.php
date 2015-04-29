@@ -9,4 +9,5 @@ $plantaDao = new PlantaDao();
 $planta->setIdade('30');
 $planta->setTamanho('50');
 $planta->setTipo('grande');
+
 $plantaDao->adcionar($planta);

@@ -10,7 +10,8 @@ class PlantaDao {
         //escreva o método para adicionar a planta no banco        
         $db = connectionFactory::getConnection();
         //$query = 'INSERT INTO PLANTA (TIPO,IDADE,TAMANHO) VALUES ('.$planta->getTipo().','.$planta->getIdade().','.$planta->getTamanho().')';
-        $query = 'INSERT INTO PLANTA (TIPO,IDADE,TAMANHO) VALUES ('.$planta->getTipo().','.$planta->getIdade().','.$planta->getTamanho().')';
+              
+        $query = "INSERT INTO PLANTA (TIPO,IDADE,TAMANHO) VALUES ('$planta->getTipo()','$planta->getIdade()','$planta->getTamanho()')";
         $db->query($query);
         var_dump($planta);
     }

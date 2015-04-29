@@ -7,19 +7,19 @@ class Planta {
     private $idade;
     private $tamanho;
     
-    function getId() {
+    public function getId() {
         return $this->id;
     }
 
-    function getTipo() {
+    public function getTipo() {
         return $this->tipo;
     }
 
-    function getIdade() {
+    public function getIdade() {
         return $this->idade;
     }
 
-    function getTamanho() {
+    public function getTamanho() {
         return $this->tamanho;
     }
 
